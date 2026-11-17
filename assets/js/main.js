@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
       burger.setAttribute('aria-expanded', !expanded);
     });
 
-    // Close menu when clicking a link
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
